@@ -56,14 +56,14 @@
 | ---------------------- | ------------------------ |
 | **🌐 Frontend**        | React + Vite             |
 | **🧪 Version Control** | Git                      |
-| **📦 Package Manager** | npm                      |
+| **📦 Package Manager** | pnpm                      |
 | **💻 Environment**     | Development with VS Code |
 
 <a name="prerequisite"></a>
 
 ## Prerequisite
 
-- NPM
+- PNPM
 
 <a name="running-the-application"></a>
 
@@ -104,7 +104,7 @@ cd Stake-frontend-clone
 Install the dependies of the project to run the server:
 
 ```bash
-npm i
+pnpm i
 
 ```
 
@@ -113,7 +113,7 @@ npm i
 Run the server:
 
 ```bash
-npm run dev
+pnpm run dev
 
 ```
 
