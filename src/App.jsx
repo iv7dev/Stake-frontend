@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
-import DataCard6 from './components/DataCard/DataCard6'; // Import DataCard6
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import DataCard6 from "./components/DataCard/DataCard6";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,7 +29,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <DataCard6 /> 
+      <DataCard6 />
     </>
   );
 }
